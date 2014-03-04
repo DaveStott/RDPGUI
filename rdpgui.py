@@ -157,6 +157,7 @@ class Ui_RDPGUI(object):
 #            self.RDPusername.setText(_translate("RDPGUI", "", None) 'This was disabled to avoid having to retype the username is the password was typed in incorrectly
 #            self.RDPdomain.setText(_translate("RDPGUI", config.get("DEFAULT", "RDPDomain"), None))
             self.label.setText(_fromUtf8(""))
+            self.version.setText(_fromUtf8(""))
         elif hostnameCheck == 1:
             print "Unable to resolve hostname: " + str(self.serverlabel.text())
             self.version.setText(_translate("RDPGUI", "Hostname Error...", None))
