@@ -1,5 +1,8 @@
 Simple Remote Desktop Connection Client in PyQt4<br>
 <br>
+Forked from Gibbio's RDPGUI: https://github.com/Gibbio/RDPGUI<br>
+More info can be found at: http://rpitc.blogspot.co.uk/2013/09/freerdprdesktop-gui-client.html<br>
+<br>
 Package needed:<br>
 python-qt4<br>
 <br>
